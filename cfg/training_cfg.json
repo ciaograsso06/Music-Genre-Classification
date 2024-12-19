@@ -1,0 +1,11 @@
+{
+    "output_dir": "./results",
+    "num_epochs":3,             
+    "lr":0.001,
+    "name":"resnet_exp1",
+    "per_device_train_batch_size":16,  
+    "per_device_eval_batch_size":64,   
+    "warmup_steps":500,                
+    "weight_decay":0.01,              
+    "logging_dir":"./logs"
+}
